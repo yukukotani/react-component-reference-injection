@@ -17,6 +17,14 @@ export default defineConfig({
           __dirname,
           "src/with-boolean-props/non-animated/index.html"
         ),
+        animatedWithDynamicImport: resolve(
+          __dirname,
+          "src/with-dynamic-import/animated/index.html"
+        ),
+        nonAnimatedWithDynamicImport: resolve(
+          __dirname,
+          "src/with-dynamic-import/non-animated/index.html"
+        ),
         animatedWithAnimationProps: resolve(
           __dirname,
           "src/with-animation-props/animated/index.html"
