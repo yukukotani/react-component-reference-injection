@@ -17,6 +17,14 @@ export default defineConfig({
           __dirname,
           "src/without-context/non-animated/index.html"
         ),
+        animatedWithAnimationProps: resolve(
+          __dirname,
+          "src/with-animation-props/animated/index.html"
+        ),
+        nonAnimatedWithAnimationProps: resolve(
+          __dirname,
+          "src/with-animation-props/non-animated/index.html"
+        ),
       },
       plugins: [
         visualizer({
