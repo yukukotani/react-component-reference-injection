@@ -3,6 +3,6 @@ import { TagWithoutContext } from "../TagWithoutContext";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <main>
-    <TagWithoutContext>Non-animated without context</TagWithoutContext>
+    <TagWithoutContext fadeIn>Animated without context</TagWithoutContext>
   </main>
 );

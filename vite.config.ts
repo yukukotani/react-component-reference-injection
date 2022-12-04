@@ -9,6 +9,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
+        animatedWithoutContext: resolve(
+          __dirname,
+          "src/without-context/animated/index.html"
+        ),
         nonAnimatedWithoutContext: resolve(
           __dirname,
           "src/without-context/non-animated/index.html"
