@@ -3,6 +3,6 @@ import { Tag } from "../Tag";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <main>
-    <Tag fadeIn>Animated without context</Tag>
+    <Tag fadeIn>Animated with boolean props</Tag>
   </main>
 );

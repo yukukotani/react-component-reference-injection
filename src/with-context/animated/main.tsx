@@ -6,7 +6,7 @@ import { Tag } from "../Tag";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <AnimationContext.Provider value={{ motion: motion }}>
     <main>
-      <Tag>Animated with animation props</Tag>
+      <Tag>Animated with context</Tag>
     </main>
   </AnimationContext.Provider>
 );

@@ -3,6 +3,6 @@ import { Tag } from "../Tag";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <main>
-    <Tag>Non-animated with animation props</Tag>
+    <Tag>Non-animated with context</Tag>
   </main>
 );
