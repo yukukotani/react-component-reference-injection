@@ -9,13 +9,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        animatedWithoutContext: resolve(
+        animatedWithBooleanProps: resolve(
           __dirname,
-          "src/without-context/animated/index.html"
+          "src/with-boolean-props/animated/index.html"
         ),
-        nonAnimatedWithoutContext: resolve(
+        nonAnimatedWithBooleanProps: resolve(
           __dirname,
-          "src/without-context/non-animated/index.html"
+          "src/with-boolean-props/non-animated/index.html"
         ),
         animatedWithAnimationProps: resolve(
           __dirname,
